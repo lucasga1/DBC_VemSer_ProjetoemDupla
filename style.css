@@ -19,8 +19,21 @@ button {
 
 /* Container */
 .container {
-    max-width: 1200px;
+    max-width: 1368px;
     margin: auto;
+}
+
+/* Class dos Button */
+.button-white {
+    background-color: white;
+    color: #18A0FB;
+    border: 1px solid #18A0FB;
+}
+
+.button-blue {
+    background-color: #18A0FB;
+    color: white;
+    border: 1px solid #18A0FB;
 }
 
 /* NavBar */
@@ -51,14 +64,25 @@ button {
     display: inline;
 }
 
-.button-white {
-    background-color: white;
-    color: #18A0FB;
-    border: 1px solid #18A0FB;
+
+
+/* Primeira Section antes do main*/
+.bg-banner {
+    width: 100%;
+    height: 960px;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.button-blue {
-    background-color: #18A0FB;
-    color: white;
-    border: 1px solid #18A0FB;
+.banner {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.banner h1 {
+    font-size: 54px;
+    margin: 80px 0 40px 0;
 }
