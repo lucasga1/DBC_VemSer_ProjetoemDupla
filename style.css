@@ -8,9 +8,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 /* Container */
 .container {
-    max-width: 1600px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -80,11 +81,16 @@ button {
     padding: 0 20px;
 }
 
+.svg-icon {
+    display: flex;
+    float: left;
+    margin-right: 10px;
+}
+
 /* Primeira Section antes do main*/
 .bg-banner {
-    width: 100%;
+    background: url(./images/banner-principal.jpg);
     height: 960px;
-    background-color: rgb(226, 226, 226);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,6 +100,7 @@ button {
     display: flex;
     align-items: center;
     flex-flow: column wrap;
+    margin-top: 50px;
 }
 
 .banner h1 {
@@ -120,7 +127,7 @@ button {
 }
 
 .content-box-1-sec {
-    max-width: 750px;
+    max-width: 600px;
     margin: 20px 20px;
     line-height: 32px;
 }
