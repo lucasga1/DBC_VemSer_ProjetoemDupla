@@ -145,3 +145,45 @@ button {
     padding: 10px 0 20px 0;
     font-size: 18px;
 }
+.segunda-section-main {
+    width: auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.content-box-2-sec {
+    width: 750px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    margin: 0 40px;
+
+}
+.content-box-2-sec h3, .content-box-2-sec p {
+    padding: 20px;
+
+}
+.terceira-section-main {
+        height: 740px;
+        
+
+
+}
+.galeria-terceira-section {
+    width: 800px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.img-galeria {
+    height: 80px;
+    width: 180px;
+    background-color: blue;
+}
