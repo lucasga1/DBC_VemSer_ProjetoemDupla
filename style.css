@@ -89,7 +89,7 @@ button {
 
 /* Primeira Section antes do main*/
 .bg-banner {
-    background: url(./images/banner-principal.jpg);
+    background: no-repeat url(./images/banner-principal.jpg);
     height: 960px;
     display: flex;
     justify-content: center;
@@ -146,14 +146,14 @@ button {
     font-size: 18px;
 }
 .segunda-section-main {
-    width: auto;
-    height: 600px;
+    width: auto; /*auto acompanha largura ou altura da tela/container*/
+    height: 500px;
     display: flex;
     align-items: center;
 }
 .content-box-2-sec {
-    width: 750px;
-    height: 440px;
+    width: 600px;
+    height: 380px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -161,29 +161,106 @@ button {
     margin: 0 40px;
 
 }
+.content-box-2-sec img {
+    max-width: 600px;
+    height: 380px;
+
+
+}
 .content-box-2-sec h3, .content-box-2-sec p {
-    padding: 20px;
+    padding: 20px; /*tamanho do conteúdo*/
 
 }
 .terceira-section-main {
         height: 740px;
+        text-align:center; /*centraliza o texto dentro do container*/
+        display: flex;
+        flex-flow: column nowrap; /*centralizar a galeria no meio horizontalmente*/
+
         
+    }
+
+.terceira-section-main h2 {
+        font-size: 48px; /*altera fonte*/
+        margin: 120px 0px 15px 0px;
+    
+
+    }
+
+    .terceira-section-main p {
+        font-size: 36px;
 
 
-}
+    }
+
+
 .galeria-terceira-section {
-    width: 800px;
-    height: 250px;
-    background-color: red;
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    flex-flow: row wrap;
-    margin: auto;
+    width: 1000px; /*largura*/
+    height: 250px;  /*altura*/
+    display: flex; /*quebra dos blocos*/
+    justify-content: space-between; /*centraliza na horizontal ou vertical*/
+    align-items:center;  /*ele centraliza horizontal ou vertical*/
+    flex-flow: row wrap; /*dar direcionamento para ver se quebra de linha ou coluna*/
+    margin: auto; /*centriza container dentro da página. Ajusta as margens centralizado*/
 }
 
 .img-galeria {
     height: 80px;
+    max-width: 180px;
+    padding: 0px 20px; /*aumenta tamanho do conteudo/neste caso "margem"*/
+    
+}
+
+.img-galeria img {
+    height: 80px;
     width: 180px;
-    background-color: blue;
+
+
+}
+.ultimo-box {
+    height: 340px;
+
+}
+.nav-footer {
+    height: 500px;
+    
+    
+    /**justify-content: space-between; /*alinhar na horizontal*/
+}
+.content-nav-footer{
+    height: 50px;
+    width: 400px;
+    margin: 120px 0px 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright {
+    background-color: #18A0FB;
+    height: 50px;
+    width: 300px;
+}
+.menu-nav-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-footer  nav ul li{
+    display: inline;
+    list-style:none; /*tira as bolinhas do conteudo do menu*/
+    text-decoration:none; /*tira o _ */
+    padding: 20px;
+}
+
+.center {
+    text-align: center;
+    margin: 80px;
+}
+.center p{
+    padding: 30px;
+}
+.center nav ul li {
+    font-size: 40px;
+}
+.logo-footer{
+    font-size: 32px;
 }
