@@ -91,7 +91,7 @@ button {
 
 .navbar nav {
     float: right;
-    margin: 5px 0 0 30px;
+    margin: 7px 0 0 30px;
 }
 
 .navbar nav ul li {
@@ -175,7 +175,7 @@ button {
 }
 
 .content-box-2-3 img {
-    max-width: 700px;
+    max-width: 550px;
     height: 380px;
 }
 
@@ -300,3 +300,11 @@ button {
 .center nav ul li {
     font-size: 40px;
 }
+
+.navbar img, .logo-footer img {
+    width: 35px;
+    height: auto;
+    border-radius: 40px;
+    padding-right: 5px;
+}
+
